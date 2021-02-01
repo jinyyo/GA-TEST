@@ -7,6 +7,6 @@ jobs:
     steps:
     - name: Hello world action step
       id: hello
-      uses: $USERNAME/GA-TEST@master
+      uses: jinyyo/GA-TEST@master
       with:
         who-to-greet: 'Mona the Octocat'
